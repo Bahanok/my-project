@@ -1,0 +1,173 @@
+body {
+    background-color: #756f6f;
+    font-family: 'Markazi Text', serif;
+ 
+  margin: auto;
+}
+h1 {
+    color: #7b87ce;
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 2.3rem;
+    color: #050505;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.cd{
+    margin-left: auto;
+    margin-right: auto;
+    background: url(pexels-antoni-shkraba-5893864.jpg);
+   width: 100vw;
+   height: 100vh;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    align-items: center;
+ 
+}
+
+header {
+   
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+header ul {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+header ul a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+header ul a:active {
+    text-decoration: underline;
+}
+
+header ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    color: #bcc6cc;
+}
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    flex: 1;
+    border-radius: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+article img {
+width: 300px;
+height: 300px;
+    border-radius: 20%;
+    
+  
+}
+#bb:hover{
+border: 1px solid black;
+    width: 350px;
+    height:350px;
+}
+
+
+article ul {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+article a:link {
+    font-size: 1.3rem;
+}
+
+article a:hover {
+    color: #eca9ec;
+}
+
+article a:active {
+    color: #000000;
+    background-color: #495E57
+}
+
+main article {
+    background-color: #756e77;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#hero {
+    background-image: url("../assets/Asset 21.png");
+    background-size: cover;
+    background-position: center;
+    color: #1a1a1a;
+    text-shadow: 2px 2px 8px #fff8bd;
+    text-align: right;
+}
+
+#hero h1 {
+    margin-right: 2rem;
+    font-weight: 600;
+    font-size: 80px;
+}
+
+#hero p {
+    max-width: 100%;
+    margin-left: 16rem;
+    margin-right: 2rem;
+}
+
+footer {
+   
+    display: flex;
+
+}
+
+footer img {
+    max-width: 50%;
+}
+
+footer p {
+    color: #000000;
+    text-align: right;
+}
+
+footer div {
+    flex: 3px;
+}
+#contact img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+#contact :hover{
+    width: 40px;
+    height: 40px;
+    
+}
